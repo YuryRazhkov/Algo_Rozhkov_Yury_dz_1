@@ -5,6 +5,7 @@
 
 from random import uniform, randint
 
+
 print('random int')
 a = int(input('digit from: '))
 b = int(input('digit to: '))
@@ -19,4 +20,3 @@ print('random symbol1')
 a = input('letter from: ')
 b = input('letter to: ')
 print(chr(randint(ord(a), ord(b))), '- random symbol', end='\n\n')
-
